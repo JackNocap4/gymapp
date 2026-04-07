@@ -48,7 +48,7 @@ public class Member extends AbstractEntity {
     public Set<WorkOutProgram> getAllWorkoutPrograms() {
         if (workoutPrograms == null) workoutPrograms = new HashSet<>();
         return Collections.unmodifiableSet(workoutPrograms);
-    }d
+    }
 
     public void addWorkoutProgram(WorkOutProgram workoutProgram) {
         if (workoutPrograms == null) workoutPrograms = new HashSet<>();
