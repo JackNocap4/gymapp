@@ -1,2 +1,2 @@
 # gymapp
-gym app using Spring Boot this time
+gym app using Spring Boot
