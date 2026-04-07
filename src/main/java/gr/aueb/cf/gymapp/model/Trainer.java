@@ -16,7 +16,7 @@ public class Trainer extends AbstractEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long id;s
 
     @Column(nullable = false)
     private String phoneNumber;
