@@ -18,7 +18,7 @@ import java.util.List;
 @Setter
 @Builder
 @Table(name = "users")
-public class User extends AbstractEntity implements UserDetails {
+public class User extends AbstractEntity implements UserDetails {s
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
