@@ -28,7 +28,7 @@ public class WorkOutProgram extends AbstractEntity {
     private Trainer trainer;
 
     @Getter(AccessLevel.PROTECTED)
-    @ManyToMany(mappedBy = "workoutPrograms", fetch = FetchType.LAZY)
+    @ManyToMany(mappedBy = "workoutPrograms", fetch = FetchType.LAZY)s
     private Set<Member> members = new HashSet<>();
 
     public Set<Member> getAllMembers() {
